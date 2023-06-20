@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white    ;
+}
+.navbar{
+    background-color: rgb(23, 23, 23);
+}
+
+
+.container{
+    background-color: black;
+}
+.allinput{
+    border-bottom: 1px solid rgb(143, 142, 142);
+}
+
+
+#addNote, #saveNote, #clearNote, #deleteAllNote{
+    color: white;
+    border: 2px solid rgb(65, 64, 64);
+}
+
+.deletenote, .editnote, .restorenote{
+      color: white;
+}
+.editnote:hover, .deletenote:hover, .restorenote:hover{
+    background-color: rgb(28, 27, 27);
+}
+.deleteSection{
+    background-color: black;
+
+}
+.noteDate::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Invert the color of the calendar icon */
+} 
+
+.card{
+    color: white;
+}
+.card:hover{
+    box-shadow: 3px 3px 3px rgb(132, 131, 131);
+
+}
+
+@media only screen and (max-width: 500px) {
+  
+    .navmenu {
+        background-color: rgb(23, 23, 23);
+    }
+    
+}
+
+
+ 
+
